@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/chat_screens/full_screen_image_viewer.dart';
 import 'package:customer/app/dine_in_screeen/book_table_screen.dart';
 import 'package:customer/app/restaurant_details_screen/restaurant_details_screen.dart';

@@ -1,10 +1,8 @@
+import "package:restaurant/models/mock_types.dart";
+import "package:restaurant/models/mock_types.dart";
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:restaurant/constant/collection_name.dart';
-import 'package:restaurant/models/payment_model/flutter_wave_model.dart';
-import 'package:restaurant/models/payment_model/paypal_model.dart';
-import 'package:restaurant/models/payment_model/razorpay_model.dart';
-import 'package:restaurant/models/payment_model/stripe_model.dart';
 import 'package:restaurant/models/user_model.dart';
 import 'package:restaurant/models/wallet_transaction_model.dart';
 import 'package:restaurant/models/withdraw_method_model.dart';

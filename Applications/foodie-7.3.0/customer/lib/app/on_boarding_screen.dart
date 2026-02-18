@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/auth_screen/login_screen.dart';
 import 'package:customer/controllers/on_boarding_controller.dart';
 import 'package:customer/themes/app_them_data.dart';

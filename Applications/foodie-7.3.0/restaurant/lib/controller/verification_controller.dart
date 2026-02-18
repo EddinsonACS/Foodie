@@ -1,3 +1,5 @@
+import "package:restaurant/models/mock_types.dart";
+import "package:restaurant/models/mock_types.dart";
 import 'package:get/get.dart';
 import 'package:restaurant/models/document_model.dart';
 import 'package:restaurant/models/driver_document_model.dart';

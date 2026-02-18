@@ -1,9 +1,8 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/wallet_screen/wallet_screen.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/constant/show_toast_dialog.dart';
 import 'package:customer/controllers/gift_card_controller.dart';
-import 'package:customer/payment/createRazorPayOrderModel.dart';
-import 'package:customer/payment/rozorpayConroller.dart';
 import 'package:customer/themes/app_them_data.dart';
 import 'package:customer/themes/round_button_fill.dart';
 import 'package:customer/utils/dark_theme_provider.dart';

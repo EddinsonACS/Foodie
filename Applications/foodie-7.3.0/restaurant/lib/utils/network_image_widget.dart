@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:restaurant/constant/constant.dart';
 import 'package:restaurant/themes/responsive.dart';

@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:badges/badges.dart' as badges;
 import 'package:customer/app/cart_screen/cart_screen.dart';
 import 'package:customer/app/dine_in_screeen/dine_in_details_screen.dart';

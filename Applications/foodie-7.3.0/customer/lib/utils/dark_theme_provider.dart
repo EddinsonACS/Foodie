@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/utils/dark_theme_preference.dart';
 import 'package:flutter/foundation.dart';
 

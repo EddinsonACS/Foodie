@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 import 'package:customer/models/coupon_model.dart';
 import 'package:customer/models/vendor_model.dart';
 import 'package:get/get.dart';

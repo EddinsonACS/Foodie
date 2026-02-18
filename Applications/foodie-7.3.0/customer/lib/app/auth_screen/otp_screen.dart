@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/auth_screen/login_screen.dart';
 import 'package:customer/app/auth_screen/signup_screen.dart';
 import 'package:customer/app/dash_board_screens/dash_board_screen.dart';
@@ -11,7 +12,6 @@ import 'package:customer/themes/round_button_fill.dart';
 import 'package:customer/utils/dark_theme_provider.dart';
 import 'package:customer/utils/fire_store_utils.dart';
 import 'package:customer/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

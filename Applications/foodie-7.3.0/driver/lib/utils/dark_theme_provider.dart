@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/utils/dark_theme_preference.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/scheduler.dart';

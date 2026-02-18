@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/dash_board_screens/dash_board_screen.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/dash_board_controller.dart';

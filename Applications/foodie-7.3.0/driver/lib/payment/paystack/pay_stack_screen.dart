@@ -1,6 +1,5 @@
 import 'dart:async';
 
-import 'package:driver/payment/paystack/paystack_url_genrater.dart';
 import 'package:driver/themes/app_them_data.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

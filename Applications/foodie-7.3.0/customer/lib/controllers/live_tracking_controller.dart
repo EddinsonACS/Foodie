@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 import 'dart:math';
 import 'dart:typed_data';
 

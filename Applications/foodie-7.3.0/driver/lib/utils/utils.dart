@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/constant/constant.dart';
 import 'package:driver/constant/show_toast_dialog.dart';
 import 'package:geolocator/geolocator.dart';

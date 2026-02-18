@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/app/auth_screen/login_screen.dart';
 import 'package:driver/controllers/on_boarding_controller.dart';
 import 'package:driver/themes/app_them_data.dart';

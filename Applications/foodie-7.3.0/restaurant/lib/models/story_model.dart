@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:restaurant/models/mock_types.dart';
 
 class StoryModel {
   String? videoThumbnail;

@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:customer/app/auth_screen/phone_number_screen.dart';

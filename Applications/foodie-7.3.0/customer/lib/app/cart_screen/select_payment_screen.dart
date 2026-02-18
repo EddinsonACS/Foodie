@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/wallet_screen/wallet_screen.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/cart_controller.dart';

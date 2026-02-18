@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/constant/show_toast_dialog.dart';
 import 'package:customer/controllers/forgot_password_controller.dart';
 import 'package:customer/themes/app_them_data.dart';

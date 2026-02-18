@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 // ignore: must_be_immutable
 import 'package:customer/app/restaurant_details_screen/restaurant_details_screen.dart';
 import 'package:customer/constant/constant.dart';

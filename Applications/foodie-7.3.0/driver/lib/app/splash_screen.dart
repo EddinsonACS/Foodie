@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/controllers/splash_controller.dart';
 import 'package:driver/themes/app_them_data.dart';
 import 'package:driver/utils/dark_theme_provider.dart';

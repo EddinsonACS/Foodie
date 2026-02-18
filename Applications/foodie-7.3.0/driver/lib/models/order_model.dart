@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:driver/models/mock_types.dart';
 import 'package:driver/models/cart_product_model.dart';
 import 'package:driver/models/tax_model.dart';
 import 'package:driver/models/user_model.dart';

@@ -1,3 +1,5 @@
+import "package:restaurant/models/mock_types.dart";
+import "package:restaurant/models/mock_types.dart";
 import 'dart:developer';
 
 import 'package:restaurant/constant/constant.dart';
@@ -5,7 +7,6 @@ import 'package:restaurant/models/currency_model.dart';
 import 'package:restaurant/models/user_model.dart';
 import 'package:restaurant/utils/fire_store_utils.dart';
 import 'package:restaurant/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 
 import '../constant/collection_name.dart';

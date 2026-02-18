@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

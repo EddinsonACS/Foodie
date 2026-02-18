@@ -1,3 +1,5 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:driver/constant/constant.dart';

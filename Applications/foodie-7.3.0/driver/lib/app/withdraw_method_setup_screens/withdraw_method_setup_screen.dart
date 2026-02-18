@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/controllers/withdraw_method_setup_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';

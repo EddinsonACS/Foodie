@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/app/chat_screens/chat_screen.dart';
 import 'package:driver/app/home_screen/deliver_order_screen.dart';
 import 'package:driver/app/home_screen/pickup_order_screen.dart';

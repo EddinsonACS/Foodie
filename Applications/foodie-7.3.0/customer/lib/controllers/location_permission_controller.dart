@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 import 'package:get/get.dart';
 
 class LocationPermissionController extends GetxController {

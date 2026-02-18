@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'dart:math';
 
 import 'package:customer/app/address_screens/address_list_screen.dart';

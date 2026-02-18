@@ -1,11 +1,9 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:driver/constant/collection_name.dart';
 import 'package:driver/constant/constant.dart';
-import 'package:driver/models/payment_model/flutter_wave_model.dart';
-import 'package:driver/models/payment_model/paypal_model.dart';
-import 'package:driver/models/payment_model/razorpay_model.dart';
-import 'package:driver/models/payment_model/stripe_model.dart';
 import 'package:driver/models/user_model.dart';
 import 'package:driver/models/withdraw_method_model.dart';
 import 'package:driver/utils/fire_store_utils.dart';

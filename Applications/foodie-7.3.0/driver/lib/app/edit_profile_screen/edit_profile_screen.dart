@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'dart:io';
 import 'package:driver/controllers/edit_profile_controller.dart';
 import 'package:driver/models/zone_model.dart';

@@ -1,6 +1,7 @@
+import "package:restaurant/models/mock_types.dart";
 import 'dart:io';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:restaurant/models/mock_types.dart';
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';

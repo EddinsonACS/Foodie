@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/home_screen/category_restaurant_screen.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/view_all_category_controller.dart';

@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'package:restaurant/utils/dark_theme_preference.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/scheduler.dart';

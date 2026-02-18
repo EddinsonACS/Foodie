@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'package:restaurant/app/auth_screen/login_screen.dart';
 import 'package:restaurant/app/auth_screen/signup_screen.dart';
 import 'package:restaurant/app/dash_board_screens/dash_board_screen.dart';
@@ -10,7 +11,6 @@ import 'package:restaurant/themes/round_button_fill.dart';
 import 'package:restaurant/utils/dark_theme_provider.dart';
 import 'package:restaurant/utils/fire_store_utils.dart';
 import 'package:restaurant/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/constant/constant.dart';
 
 class UserModel {

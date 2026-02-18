@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:dotted_border/dotted_border.dart';

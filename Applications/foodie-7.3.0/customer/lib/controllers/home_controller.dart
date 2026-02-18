@@ -1,4 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/dash_board_controller.dart';
 import 'package:customer/models/BannerModel.dart';

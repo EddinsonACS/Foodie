@@ -1,4 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/app/dash_board_screens/dash_board_screen.dart';
 import 'package:customer/app/location_permission_screen/location_permission_screen.dart';
 import 'package:customer/constant/constant.dart';
@@ -7,7 +9,6 @@ import 'package:customer/models/referral_model.dart';
 import 'package:customer/models/user_model.dart';
 import 'package:customer/utils/fire_store_utils.dart';
 import 'package:customer/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

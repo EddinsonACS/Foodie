@@ -1,8 +1,6 @@
 import 'dart:convert';
 
-import 'package:driver/models/payment_model/pay_fast_model.dart';
 import 'package:driver/models/user_model.dart';
-import 'package:driver/payment/paystack/pay_stack_url_model.dart';
 import 'package:flutter/foundation.dart';
 import 'package:http/http.dart' as http;
 

@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 import 'dart:async';
 import 'dart:developer';
 
@@ -10,7 +12,6 @@ import 'package:customer/models/user_model.dart';
 import 'package:customer/utils/fire_store_utils.dart';
 import 'package:customer/utils/notification_service.dart';
 import 'package:customer/utils/preferences.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 
 class SplashController extends GetxController {

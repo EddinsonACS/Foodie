@@ -1,6 +1,8 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'dart:async';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:driver/models/mock_types.dart';
 import 'package:driver/constant/send_notification.dart';
 import 'package:driver/models/conversation_model.dart';
 import 'package:driver/models/inbox_model.dart';

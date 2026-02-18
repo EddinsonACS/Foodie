@@ -4,15 +4,12 @@ import 'package:country_code_picker/country_code_picker.dart';
 import 'package:customer/app/splash_screen.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/global_setting_controller.dart';
-import 'package:customer/firebase_options.dart';
 import 'package:customer/models/language_model.dart';
 import 'package:customer/services/database_helper.dart';
 import 'package:customer/services/localization_service.dart';
 import 'package:customer/themes/styles.dart';
 import 'package:customer/utils/dark_theme_provider.dart';
 import 'package:customer/utils/preferences.dart';
-import 'package:firebase_app_check/firebase_app_check.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -20,14 +17,7 @@ import 'package:provider/provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-  await FirebaseAppCheck.instance.activate(
-    webProvider: ReCaptchaV3Provider('recaptcha-v3-site-key'),
-    androidProvider: AndroidProvider.playIntegrity,
-    appleProvider: AppleProvider.appAttest,
-  );
+  // Firebase initialization removed for Frontend-only version
   DatabaseHelper.instance;
   await Preferences.initPref();
   runApp(

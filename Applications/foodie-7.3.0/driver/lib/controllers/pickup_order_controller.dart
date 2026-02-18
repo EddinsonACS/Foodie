@@ -1,3 +1,5 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'package:driver/models/order_model.dart';
 import 'package:get/get.dart';
 

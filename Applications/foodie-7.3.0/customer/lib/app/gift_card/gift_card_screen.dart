@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/gift_card/history_gift_card.dart';
 import 'package:customer/app/gift_card/redeem_gift_card_screen.dart';
 import 'package:customer/app/gift_card/select_gift_payment_screen.dart';

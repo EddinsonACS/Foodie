@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/models/cart_product_model.dart';
 import 'package:customer/models/tax_model.dart';
 import 'package:customer/models/user_model.dart';

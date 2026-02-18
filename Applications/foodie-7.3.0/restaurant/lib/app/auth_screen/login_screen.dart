@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:restaurant/app/auth_screen/phone_number_screen.dart';

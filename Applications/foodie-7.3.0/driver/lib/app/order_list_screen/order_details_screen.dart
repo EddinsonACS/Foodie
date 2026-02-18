@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/constant/constant.dart';
 import 'package:driver/controllers/order_details_controller.dart';
 import 'package:driver/models/cart_product_model.dart';

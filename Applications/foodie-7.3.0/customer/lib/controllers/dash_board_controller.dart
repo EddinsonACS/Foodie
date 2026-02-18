@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/favourite_screens/favourite_screen.dart';
 import 'package:customer/app/home_screen/home_screen.dart';
 import 'package:customer/app/home_screen/home_screen_two.dart';

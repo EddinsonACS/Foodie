@@ -1,6 +1,4 @@
 import 'dart:convert';
-import 'package:driver/models/payment_model/razorpay_model.dart';
-import 'package:driver/payment/createRazorPayOrderModel.dart';
 import 'package:http/http.dart' as http;
 
 import '../constant/constant.dart';

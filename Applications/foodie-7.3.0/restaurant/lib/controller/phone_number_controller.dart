@@ -1,4 +1,5 @@
-import 'package:firebase_auth/firebase_auth.dart';
+import "package:restaurant/models/mock_types.dart";
+import "package:restaurant/models/mock_types.dart";
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:restaurant/app/auth_screen/otp_screen.dart';
