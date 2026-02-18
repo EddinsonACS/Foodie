@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/models/conversation_model.dart';
 
 class ChatVideoContainer {

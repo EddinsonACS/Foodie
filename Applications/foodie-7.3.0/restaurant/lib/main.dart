@@ -1,8 +1,6 @@
 import 'dart:convert';
 
 import 'package:country_code_picker/country_code_picker.dart';
-import 'package:firebase_app_check/firebase_app_check.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -10,7 +8,6 @@ import 'package:provider/provider.dart';
 import 'package:restaurant/app/splash_screen.dart';
 import 'package:restaurant/constant/constant.dart';
 import 'package:restaurant/controller/global_setting_controller.dart';
-import 'package:restaurant/firebase_options.dart';
 import 'package:restaurant/models/language_model.dart';
 import 'package:restaurant/service/localization_service.dart';
 import 'package:restaurant/themes/styles.dart';
@@ -19,14 +16,7 @@ import 'package:restaurant/utils/preferences.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-  await FirebaseAppCheck.instance.activate(
-    webProvider: ReCaptchaV3Provider('recaptcha-v3-site-key'),
-    androidProvider: AndroidProvider.playIntegrity,
-    appleProvider: AppleProvider.appAttest,
-  );
+  // Firebase initialization removed for Frontend-only version
   await Preferences.initPref();
   runApp(const MyApp());
 }

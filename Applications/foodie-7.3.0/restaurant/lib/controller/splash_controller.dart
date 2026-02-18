@@ -1,3 +1,5 @@
+import "package:restaurant/models/mock_types.dart";
+import "package:restaurant/models/mock_types.dart";
 import 'dart:async';
 import 'dart:developer';
 
@@ -9,7 +11,6 @@ import 'package:restaurant/models/user_model.dart';
 import 'package:restaurant/utils/fire_store_utils.dart';
 import 'package:restaurant/utils/notification_service.dart';
 import 'package:restaurant/utils/preferences.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 
 class SplashController extends GetxController {

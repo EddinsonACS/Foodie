@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:restaurant/models/mock_types.dart';
 import 'package:restaurant/widget/geoflutterfire/src/models/distance_doc_snapshot.dart';
 import 'package:restaurant/widget/geoflutterfire/src/models/point.dart';
 import 'package:flutter/material.dart';

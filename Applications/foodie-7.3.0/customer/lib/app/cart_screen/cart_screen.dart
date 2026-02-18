@@ -1,5 +1,6 @@
+import "package:customer/models/mock_types.dart";
 import 'package:bottom_picker/bottom_picker.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/app/address_screens/address_list_screen.dart';
 import 'package:customer/app/cart_screen/coupon_list_screen.dart';
 import 'package:customer/app/cart_screen/select_payment_screen.dart';
@@ -12,8 +13,6 @@ import 'package:customer/models/cart_product_model.dart';
 import 'package:customer/models/product_model.dart';
 import 'package:customer/models/tax_model.dart';
 import 'package:customer/models/user_model.dart';
-import 'package:customer/payment/createRazorPayOrderModel.dart';
-import 'package:customer/payment/rozorpayConroller.dart';
 import 'package:customer/themes/app_them_data.dart';
 import 'package:customer/themes/responsive.dart';
 import 'package:customer/themes/round_button_fill.dart';

@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 import 'dart:async';
 
 import 'package:customer/models/order_model.dart';

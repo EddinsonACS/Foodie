@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/app/home_screen/home_screen.dart';
 import 'package:driver/constant/constant.dart';
 import 'package:driver/controllers/dash_board_controller.dart';

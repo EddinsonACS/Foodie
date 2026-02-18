@@ -1,6 +1,7 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'package:driver/app/auth_screen/otp_screen.dart';
 import 'package:driver/constant/show_toast_dialog.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

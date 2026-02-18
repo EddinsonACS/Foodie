@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:badges/badges.dart' as badges;
 import 'package:customer/app/address_screens/address_list_screen.dart';
 import 'package:customer/app/auth_screen/login_screen.dart';

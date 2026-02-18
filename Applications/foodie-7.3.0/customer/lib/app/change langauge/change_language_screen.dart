@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'dart:convert';
 
 import 'package:customer/constant/constant.dart';

@@ -1,4 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:driver/models/mock_types.dart";
+import 'package:driver/models/mock_types.dart';
 import 'package:driver/app/wallet_screen/payment_list_screen.dart';
 import 'package:driver/constant/show_toast_dialog.dart';
 import 'package:driver/controllers/wallet_controller.dart';

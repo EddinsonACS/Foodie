@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:country_code_picker/country_code_picker.dart';
 import 'package:driver/app/auth_screen/phone_number_screen.dart';
 import 'package:driver/constant/show_toast_dialog.dart';

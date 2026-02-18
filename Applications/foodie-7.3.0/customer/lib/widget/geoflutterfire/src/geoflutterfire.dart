@@ -1,4 +1,4 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/widget/geoflutterfire/src/collection/with_converter.dart';
 
 import 'collection/default.dart';

@@ -1,3 +1,5 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'dart:async';
 import 'dart:math';
 import 'package:driver/constant/collection_name.dart';

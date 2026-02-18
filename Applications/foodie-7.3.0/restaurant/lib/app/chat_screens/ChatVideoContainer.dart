@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 
 import 'package:restaurant/models/conversation_model.dart';
 

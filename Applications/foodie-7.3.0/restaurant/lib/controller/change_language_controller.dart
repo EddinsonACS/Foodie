@@ -1,3 +1,5 @@
+import "package:restaurant/models/mock_types.dart";
+import "package:restaurant/models/mock_types.dart";
 
 import 'package:get/get.dart';
 import 'package:restaurant/constant/constant.dart';

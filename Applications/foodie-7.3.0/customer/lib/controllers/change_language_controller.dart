@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 
 import 'package:customer/constant/constant.dart';
 import 'package:customer/models/language_model.dart';

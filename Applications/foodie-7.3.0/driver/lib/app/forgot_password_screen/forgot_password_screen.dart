@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/constant/show_toast_dialog.dart';
 import 'package:driver/controllers/forgot_password_controller.dart';
 import 'package:driver/themes/app_them_data.dart';

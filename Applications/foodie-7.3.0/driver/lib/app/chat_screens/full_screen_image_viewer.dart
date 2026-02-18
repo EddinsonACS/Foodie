@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:flutter/material.dart';

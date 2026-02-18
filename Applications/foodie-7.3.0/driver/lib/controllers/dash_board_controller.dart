@@ -1,4 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
+import 'package:driver/models/mock_types.dart';
 import 'package:driver/constant/collection_name.dart';
 import 'package:driver/constant/constant.dart';
 import 'package:driver/models/order_model.dart';

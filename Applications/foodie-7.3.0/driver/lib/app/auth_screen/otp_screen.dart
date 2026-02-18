@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:driver/app/auth_screen/login_screen.dart';
@@ -12,7 +13,6 @@ import 'package:driver/themes/responsive.dart';
 import 'package:driver/utils/dark_theme_provider.dart';
 import 'package:driver/utils/fire_store_utils.dart';
 import 'package:driver/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

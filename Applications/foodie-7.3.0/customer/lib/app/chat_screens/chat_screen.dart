@@ -1,7 +1,8 @@
+import "package:customer/models/mock_types.dart";
 import 'dart:async';
 import 'dart:io';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/app/chat_screens/ChatVideoContainer.dart';
 import 'package:customer/app/chat_screens/full_screen_video_viewer.dart';
 import 'package:customer/app/chat_screens/full_screen_image_viewer.dart';

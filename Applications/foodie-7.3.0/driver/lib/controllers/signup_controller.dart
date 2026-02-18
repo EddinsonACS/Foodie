@@ -1,4 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
+import 'package:driver/models/mock_types.dart';
 import 'package:driver/app/dash_board_screen/dash_board_screen.dart';
 import 'package:driver/constant/constant.dart';
 import 'package:driver/constant/show_toast_dialog.dart';
@@ -6,7 +8,6 @@ import 'package:driver/models/user_model.dart';
 import 'package:driver/models/zone_model.dart';
 import 'package:driver/utils/fire_store_utils.dart';
 import 'package:driver/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

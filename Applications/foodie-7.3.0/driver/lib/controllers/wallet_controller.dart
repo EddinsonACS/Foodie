@@ -1,45 +1,17 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'dart:convert';
 import 'dart:developer';
 import 'dart:io';
 
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:driver/models/mock_types.dart';
 import 'package:driver/constant/collection_name.dart';
 import 'package:driver/constant/constant.dart';
 import 'package:driver/constant/show_toast_dialog.dart';
 import 'package:driver/models/order_model.dart';
-import 'package:driver/models/payment_model/mid_trans.dart';
-import 'package:driver/models/payment_model/orange_money.dart';
-import 'package:driver/models/payment_model/xendit.dart';
-import 'package:driver/payment/MercadoPagoScreen.dart';
-import 'package:driver/payment/PayFastScreen.dart';
-import 'package:driver/payment/getPaytmTxtToken.dart';
-import 'package:driver/payment/midtrans_screen.dart';
-import 'package:driver/payment/orangePayScreen.dart';
-import 'package:driver/payment/paystack/pay_stack_screen.dart';
-import 'package:driver/payment/paystack/pay_stack_url_model.dart';
-import 'package:driver/payment/paystack/paystack_url_genrater.dart';
-import 'package:driver/payment/stripe_failed_model.dart';
-import 'package:driver/payment/xenditModel.dart';
-import 'package:driver/payment/xenditScreen.dart';
 import 'package:driver/themes/app_them_data.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_paypal_native/flutter_paypal_native.dart';
-import 'package:flutter_paypal_native/models/custom/currency_code.dart';
-import 'package:flutter_paypal_native/models/custom/environment.dart';
-import 'package:flutter_paypal_native/models/custom/order_callback.dart';
-import 'package:flutter_paypal_native/models/custom/purchase_unit.dart';
-import 'package:flutter_paypal_native/models/custom/user_action.dart';
-import 'package:flutter_paypal_native/str_helper.dart';
-import 'package:razorpay_flutter/razorpay_flutter.dart';
 
-import 'package:driver/models/payment_model/flutter_wave_model.dart';
-import 'package:driver/models/payment_model/mercado_pago_model.dart';
-import 'package:driver/models/payment_model/pay_fast_model.dart';
-import 'package:driver/models/payment_model/pay_stack_model.dart';
-import 'package:driver/models/payment_model/paypal_model.dart';
-import 'package:driver/models/payment_model/paytm_model.dart';
-import 'package:driver/models/payment_model/razorpay_model.dart';
-import 'package:driver/models/payment_model/stripe_model.dart';
 import 'package:driver/models/user_model.dart';
 import 'package:driver/models/wallet_transaction_model.dart';
 import 'package:driver/utils/fire_store_utils.dart';
@@ -50,7 +22,6 @@ import 'dart:math' as maths;
 import 'package:http/http.dart' as http;
 import 'package:driver/models/withdraw_method_model.dart';
 import 'package:driver/models/withdrawal_model.dart';
-import 'package:flutter_stripe/flutter_stripe.dart' as flutterStipe;
 import 'package:uuid/uuid.dart';
 
 class WalletController extends GetxController {

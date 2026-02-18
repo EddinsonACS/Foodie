@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'dart:typed_data';
 
 import 'package:flutter/material.dart';

@@ -1,3 +1,5 @@
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
 
 import 'package:customer/models/dine_in_booking_model.dart';
 import 'package:customer/utils/fire_store_utils.dart';

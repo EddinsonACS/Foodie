@@ -1,3 +1,4 @@
+import "package:restaurant/models/mock_types.dart";
 import 'package:geolocator/geolocator.dart';
 import 'package:location/location.dart';
 

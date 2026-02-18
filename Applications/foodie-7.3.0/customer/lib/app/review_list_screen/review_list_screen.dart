@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/review_list_controller.dart';
 import 'package:customer/models/rating_model.dart';

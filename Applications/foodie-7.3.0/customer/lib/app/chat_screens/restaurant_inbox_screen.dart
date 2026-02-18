@@ -1,4 +1,5 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:customer/models/mock_types.dart";
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/app/chat_screens/chat_screen.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/constant/show_toast_dialog.dart';

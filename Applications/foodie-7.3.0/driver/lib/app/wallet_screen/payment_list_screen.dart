@@ -1,8 +1,7 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/constant/constant.dart';
 import 'package:driver/constant/show_toast_dialog.dart';
 import 'package:driver/controllers/wallet_controller.dart';
-import 'package:driver/payment/createRazorPayOrderModel.dart';
-import 'package:driver/payment/rozorpayConroller.dart';
 import 'package:driver/themes/app_them_data.dart';
 import 'package:driver/themes/round_button_fill.dart';
 import 'package:driver/themes/text_field_widget.dart';

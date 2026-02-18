@@ -1,4 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
+import "package:customer/models/mock_types.dart";
+import "package:customer/models/mock_types.dart";
+import 'package:customer/models/mock_types.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/models/gift_cards_order_model.dart';
 import 'package:customer/utils/fire_store_utils.dart';

@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/themes/responsive.dart';

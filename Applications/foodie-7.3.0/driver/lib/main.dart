@@ -5,14 +5,11 @@ import 'package:country_code_picker/country_code_picker.dart';
 import 'package:driver/app/splash_screen.dart';
 import 'package:driver/constant/constant.dart';
 import 'package:driver/controllers/global_setting_controller.dart';
-import 'package:driver/firebase_options.dart';
 import 'package:driver/models/language_model.dart';
 import 'package:driver/services/localization_service.dart';
 import 'package:driver/themes/styles.dart';
 import 'package:driver/utils/dark_theme_provider.dart';
 import 'package:driver/utils/preferences.dart';
-import 'package:firebase_app_check/firebase_app_check.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 import 'package:get/get.dart';
@@ -20,16 +17,9 @@ import 'package:provider/provider.dart';
 
 void main() async {
   runZonedGuarded(() async {
-    WidgetsFlutterBinding.ensureInitialized(); //<= the key is here
+    WidgetsFlutterBinding.ensureInitialized();
     FlutterError.onError = (FlutterErrorDetails errorDetails) {};
-    await Firebase.initializeApp(
-      options: DefaultFirebaseOptions.currentPlatform,
-    );
-    await FirebaseAppCheck.instance.activate(
-      webProvider: ReCaptchaV3Provider('recaptcha-v3-site-key'),
-      androidProvider: AndroidProvider.playIntegrity,
-      appleProvider: AppleProvider.appAttest,
-    );
+    // Firebase initialization removed for Frontend-only version
     await Preferences.initPref();
     runApp(const MyApp());
   }, (error, stackTrace) {});

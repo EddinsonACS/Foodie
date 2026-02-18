@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 
 // Firebase Packages
-import 'package:firebase_database/firebase_database.dart';
 
 // Data Models
 import 'models/page_options.dart';

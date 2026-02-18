@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'dart:io';
 
 import 'package:country_code_picker/country_code_picker.dart';

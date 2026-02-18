@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/history_gift_card_controller.dart';
 import 'package:customer/models/gift_cards_order_model.dart';

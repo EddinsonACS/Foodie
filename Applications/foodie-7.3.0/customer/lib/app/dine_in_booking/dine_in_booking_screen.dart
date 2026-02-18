@@ -1,3 +1,4 @@
+import "package:customer/models/mock_types.dart";
 import 'package:customer/app/dine_in_booking/dine_in_booking_details.dart';
 import 'package:customer/constant/constant.dart';
 import 'package:customer/controllers/dine_in_booking_controller.dart';

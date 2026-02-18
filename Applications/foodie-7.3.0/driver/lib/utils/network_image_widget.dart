@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:driver/constant/constant.dart';
 import 'package:driver/themes/responsive.dart';

@@ -1,3 +1,5 @@
+import "package:driver/models/mock_types.dart";
+import "package:driver/models/mock_types.dart";
 import 'dart:developer';
 
 import 'package:driver/constant/constant.dart';
@@ -5,7 +7,6 @@ import 'package:driver/models/currency_model.dart';
 import 'package:driver/models/user_model.dart';
 import 'package:driver/utils/fire_store_utils.dart';
 import 'package:driver/utils/notification_service.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:get/get.dart';
 
 import '../constant/collection_name.dart';

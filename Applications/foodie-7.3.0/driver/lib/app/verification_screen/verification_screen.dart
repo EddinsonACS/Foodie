@@ -1,3 +1,4 @@
+import "package:driver/models/mock_types.dart";
 import 'package:driver/constant/constant.dart';
 import 'package:driver/controllers/verification_controller.dart';
 import 'package:driver/models/document_model.dart';
